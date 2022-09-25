@@ -1,12 +1,11 @@
+import { ImgHTMLAttributes } from 'react';
 import styles from './styles.module.css'
 
-interface AvatarProps {
+interface AvatarProps extends ImgHTMLAttributes<HTMLImageElement> {
   avatarClass: 'sidebarAvatar' | 'commentAvatar' | 'postAvatar';
-  src: string;
-  alt?: string
 }
 
-export function Avatar({ avatarClass, src, alt }:AvatarProps) {
+export function Avatar({ avatarClass, ...props }:AvatarProps) {
   let typeAvatar = ''
 
   switch (avatarClass) {
@@ -24,6 +23,6 @@ export function Avatar({ avatarClass, src, alt }:AvatarProps) {
   }
 
   return (
-    <img className={ typeAvatar } src={ src } alt={ alt } />
+    <img className={ typeAvatar } { ...props } />
   )
 }
