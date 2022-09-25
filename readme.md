@@ -6,11 +6,15 @@
 
 ## Key Concepts Learned
 
-- Date format with date-fns
-- React Hook useState
+
+- CSS modules in React
+- Conditioned CSS class
+- State, immutability, props
+- Use map() for list rendering, filter() for component delete
 - React Hook useState
 - Function as Props
 - Date format with date-fns
+- Typescript
 
 
 ## Installation
@@ -24,4 +28,3 @@ cd ignite-feed-ts
 npm i
 npm run dev
 ```
-.
