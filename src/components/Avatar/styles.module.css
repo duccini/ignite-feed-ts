@@ -1,0 +1,27 @@
+.sidebarAvatar {
+  box-sizing: initial;
+
+  height: 6rem;
+  width: 6rem;
+
+  border-radius: 8px;
+  border: 2px solid var(--green-300);
+
+}
+
+.commentAvatar {
+  width: 3rem;
+  height: 3rem;
+
+  border-radius: 8px;
+}
+
+.postAvatar {
+  box-sizing: initial;
+
+  height: 3.5rem;
+  width: 3.5rem;
+
+  border-radius: 8px;
+  border: 2px solid var(--green-300);
+}
