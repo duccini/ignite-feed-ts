@@ -1,3 +1,5 @@
+![My Image](src/assets/Ignite-feed.png)
+
 # Ignite Feed - Typescript
 
 ### _Rocketseat React Course's Project_

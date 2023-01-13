@@ -6,6 +6,7 @@ interface AvatarProps extends ImgHTMLAttributes<HTMLImageElement> {
 }
 
 export function Avatar({ avatarClass, ...props }:AvatarProps) {
+  /*
   let typeAvatar = ''
 
   switch (avatarClass) {
@@ -21,8 +22,9 @@ export function Avatar({ avatarClass, ...props }:AvatarProps) {
       typeAvatar = styles.postAvatar
       break;
   }
+  */
 
   return (
-    <img className={ typeAvatar } { ...props } />
+    <img className={ styles[avatarClass] } { ...props } />
   )
 }
